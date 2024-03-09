@@ -2,9 +2,10 @@ import React from 'react'
 import Main from './components/MainComponent'
 import Footer from './components/FooterComponent'
 import './App.css'
-import Pic from './components/travel.jpg'
 
-function App() {
+const Pic = require('./components/travel.jpg');
+
+function App(): JSX.Element {
   return (
     <div className="App">
       <h1>Hello Fellow Travelers! Welcome!</h1>
